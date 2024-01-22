@@ -1,0 +1,60 @@
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; 
+}
+
+.card {
+  width: 100%; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: left;
+
+  h2 {
+    margin-bottom: 12px;
+    color: red;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 8px;
+      color: white;
+    }
+
+   .img-details{
+    object-fit: cover;
+    width: 30px;
+    height:30px;
+    
+
+
+   }
+
+
+  }
+}
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 100vh;
+}
+
+  .page-heading {
+    color: beige;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+
+
+
+
